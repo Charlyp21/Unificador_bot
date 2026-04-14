@@ -7,7 +7,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         return
 
     await update.effective_message.reply_text(
-        "Bienvenido al Unificador Bot. Usa /ayuda para ver los comandos disponibles."
+        "Soy el Unificador. Usa /ayuda para que veas que puedo hacer."
     )
 
 

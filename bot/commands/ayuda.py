@@ -5,7 +5,6 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 HELP_TEXT = "\n".join(
     [
         "Comandos disponibles:",
-        "/start - Mensaje de bienvenida",
         "/ayuda - Lista de comandos",
         "/contactos - Links de contacto utiles",
         "/comunidad - Links de grupos de la fraternidad",
